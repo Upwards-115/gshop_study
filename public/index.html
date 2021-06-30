@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title rel="stylesheet" href="./reset.css"></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      // function remRefresh(){
+      //   //1.获取屏幕的宽度
+      //   let clientWidth = document.documentElement.clientWidth;
+      //   //2.将屏幕的宽度等分，等分的目的：降低单位rem的值的大小，便于计算，提高精度
+      //   let rem = clientWidth / 10;
+      //   //3.设置根节点的字体大小
+      //   document.documentElement.style.fontSize = rem + 'px'
+      //   //4.设置body字体的大小
+      //   document.body.style.fontSize = '16px'
+      // }
+      //
+      // //调用
+      // window.addEventListener('pageshow',() => {
+      //   remRefresh()
+      // })
+      // let timeoutId;
+      // window.addEventListener('resize',() => {
+      //   timeoutId && clearTimeout(timeoutId)
+      //   timeoutId = setTimeout(() => {
+      //     remRefresh()
+      //   }, 2000)
+      // })
+    </script>
+  </body>
+</html>
